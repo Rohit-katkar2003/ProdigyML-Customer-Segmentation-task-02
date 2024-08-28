@@ -32,3 +32,27 @@ EDA is performed to understand the distribution of data, identify outliers, and 
 * Age Distribution: A histogram showing the age distribution of customers.
 * Income vs Spending Score: A scatter plot visualizing the relationship between income and spending score.
 * Correlation Matrix: A heatmap displaying the correlations between different features.
+
+## ⚙️ Methods and Techniques <a name="methods"></a>
+We applied several clustering algorithms to segment the customers:
+
+### Clustering Algorithms:
+* K-Means Clustering: Selected the optimal number of clusters using the Elbow Method.
+* Hierarchical Clustering: Created dendrograms to visualize and decide the number of clusters.
+* DBSCAN: Used for identifying noise and handling non-linear cluster shapes.
+  
+### Model Evaluation:
+* Silhouette Score: Used to evaluate the compactness and separation of the clusters.
+* Inertia: Calculated for K-Means to evaluate how well the clusters are formed.
+
+## 📑 Results and Insights <a name="results"></a>
+The analysis revealed distinct customer segments:
+
+### Key Segments:
+* High Income, High Spending: Customers with high purchasing power and loyalty.
+* Low Income, High Spending: Potential customers for targeted promotions.
+* Young, Low Income, Low Spending: Budget-conscious young customers.
+### Business Insights:
+* Segment 1: Should be targeted with premium products and loyalty programs.
+* Segment 2: Offers and discounts could be effective in increasing spending.
+* Segment 3: Can be engaged through social media and budget-friendly options.
